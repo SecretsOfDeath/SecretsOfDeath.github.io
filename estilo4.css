@@ -1,0 +1,256 @@
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* body
+{
+	background: red;
+} */
+body::-webkit-scrollbar 
+{
+    width: 7px;
+    background: transparent;
+}
+body::-webkit-scrollbar-thumb
+{
+	background: red;
+	border-radius: 50px;
+}
+h1
+{
+	color: red;
+}
+header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 107%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+	background: black;
+}
+header .logo
+{
+	position: relative;
+	color: red;
+	display: inline-block;
+	font-size: 1.5em;
+	text-decoration: none;
+	font-weight: 800;
+}
+header a
+{
+	user-select: none;
+}
+header ul
+{
+	position: relative;
+	display: flex;
+}
+header ul li
+{
+	list-style: none;
+}
+header ul li a
+{
+	display: inline-block;
+	color: red;
+	font-weight: 600;
+	font-size: 1.1em;
+	margin-left: 10px;
+	display: inline-block;
+	padding: 8px 10px;
+	text-decoration: none;
+	user-select: none;
+}
+header ul li a.active,
+header ul li a:hover
+{
+	background: red;
+	color:#ffff;
+	border-radius: 30px;
+}
+body 
+{
+	background: black;
+	background-position: center;
+	color: white;
+	font-weight: bold;
+}
+
+body p
+{
+	user-select: none;
+	letter-spacing: auto;
+	font-size: 30px;
+	text-align: center;
+}
+.contexto h1
+{
+	top: 0;
+	padding: 150px;
+	height: auto;
+	width: auto;
+	text-align: center;
+	font-size: 70px;
+	background: url('img/detodo/sod1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: hidden;
+	user-select: none;
+	color: white;
+}
+
+.main {
+	user-select: none;
+	width: 90%;
+	max-width: 1000px;
+	margin: 160px 160px;
+}
+
+.slides {
+	width: 100%;
+}
+.slides img{
+	filter: blur(10px);
+	width: auto;
+	position: absolute;
+}
+
+.slidesjs-pagination {
+	border-radius: 15px;
+	background:black;
+	list-style: none;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li {
+	float: left;
+}
+
+.slidesjs-pagination li a{
+	display: block;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover {
+	background: red;
+	border-radius: 50px;
+}
+
+.slide .active {
+	background: black;
+}
+section p
+{
+	text-align: center;
+	font-size: 50px;
+	position: relative;
+	margin: 140px;
+}
+
+.sci
+{
+     position: absolute;
+     bottom: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.sci li
+{
+     list-style: none;
+}
+.sci li a
+{
+     position: relative;
+     display: inline-block;
+     margin-right: 15px;
+     width: 50px;
+     height: 50px;
+     background: red;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: 0.2s ease-in-out;
+}
+.sci li a img
+{
+	user-select: none;
+	width: 50px;
+	height: 50px;
+    filter: invert(1);
+    transform: scale(0.5);
+}
+.sci li a:hover
+{
+     background: black;
+     transform: translateY(-10px);
+}
+footer 
+{
+     position: relative;
+     width: 100%;
+     min-height: 85vh;
+     padding: 100px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     background: url('img1/fon1.jpg');
+     background-size: cover;
+     background-position: justify;
+     background-attachment: fixed;
+     overflow: hidden;
+	 user-select: none;
+}
+footer p
+{
+	color: red;
+	font-weight: 700;
+	font-size: 35px;
+	margin: 20px 20px;
+	text-align: center;
+}
+.derechos
+{
+	background: black;
+	color: gray;
+	text-shadow: 0px 0px 10px white;
+}
+.derechos p
+{
+	font-size: 20px;
+}
+/* .pie .pagina img:hover {
+	border-radius: 100px;
+	background: linear-gradient(315deg,rgb(0, 204, 255),blue);
+	box-shadow: 0px 0px 80px 10px;
+	color: rgb(0, 162, 255);
+	transition: all 100ms ease;
+}
+
+.pie2 .pagina2 img:hover {
+	border-radius: 18px;
+	background: linear-gradient(315deg,red,rgb(255, 255, 255));
+	box-shadow: 0px 0px 80px 10px;
+	color: rgb(255, 1, 1);
+	transition: all 100ms ease;
+}
+
+.pie3 .pagina3 img:hover {
+	border-radius: 15px;
+	background: linear-gradient(315deg,pink,rgb(248, 7, 168));
+	box-shadow: 0px 0px 80px 10px;
+	color: rgb(255, 7, 152);
+	transition: all 100ms ease;
+} */

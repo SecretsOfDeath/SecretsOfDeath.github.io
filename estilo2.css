@@ -1,0 +1,427 @@
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body::-webkit-scrollbar 
+{
+    width: 7px;
+    background: transparent;
+}
+body::-webkit-scrollbar-thumb
+{
+	background: red;
+	border-radius: 50px;
+}
+body 
+{
+	background: black;
+	background-position: center;
+	font-weight: bold;
+	font-family: 'Nunito';
+	color: red;
+}
+
+body p
+{
+	user-select: none;
+	letter-spacing: 2px;
+	font-family: 'Trebuchet MS';
+	font-size: 30px;
+	text-align: center;
+	word-spacing: 10px;
+}
+.contexto h1
+{
+	top: 0;
+	padding: 150px;
+	height: auto;
+	width: auto;
+	text-align: center;
+	font-size: 70px;
+	background: url('img/detodo/sod1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: hidden;
+	user-select: none;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+}
+
+header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 107%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+	background: black;
+}
+header .logo
+{
+	position: relative;
+	color: red;
+	display: inline-block;
+	font-size: 1.5em;
+	text-decoration: none;
+	font-weight: 800;
+}
+header a
+{
+	user-select: none;
+}
+header ul
+{
+	position: relative;
+	display: flex;
+}
+header ul li
+{
+	list-style: none;
+}
+header ul li a
+{
+	display: inline-block;
+	color: red;
+	font-weight: 600;
+	font-size: 1.1em;
+	margin-left: 10px;
+	display: inline-block;
+	padding: 8px 10px;
+	text-decoration: none;
+	user-select: none;
+}
+header ul li a.active,
+header ul li a:hover
+{
+	background: red;
+	color:#ffff;
+	border-radius: 30px;
+}
+
+.contenedor {
+	max-width: 100%;
+	margin: 5px 5px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contenedor_tarjeta {
+	margin: 50px;
+}
+
+.contenedor_tarjeta a{
+	display: inline-block;
+}
+
+.contenedor_tarjeta:hover figure{
+	-webkit-transform: perspective(300px) rotateY(180deg);
+	-ms-transform: perspective(300px) rotateY(180deg);
+	-o-transform: perspective(300px) rotateY(180deg);
+	transform: perspective(300px) rotateY(180deg);
+
+	-webkit-box-shadow:0px 2px 10px 2px white;
+	-moz-box-shadow:0px 2px 10px 2px white;
+	box-shadow:0px 2px 10px 2px white;
+	border-radius: 13px;
+}
+
+/*.contenedor_tarjeta:hover figure img {
+	filter: blur(2px);
+}*/
+
+figure {
+	padding: 0;
+	width: 320px;
+	height: 320px;
+	margin: 0;
+	position: relative;
+	transition: all ease .5s;
+	transform-style: preserve-3d;
+	transform: perspective(300px) rotate(0deg);
+}
+figure .frontal,
+figure .trasera {
+	user-select: none;
+	width: 320px;
+	height: 320px;
+	border-radius: 11px;
+	transition: all ease .5s;
+}
+
+figure .frontal {
+	display: block;
+	/* backface-visibility: hidden; */
+}
+
+figure .trasera {
+	position: absolute;
+	top: 0;
+	padding: 0px;
+	color: white;
+	transform: perspective(300px) rotateY(180deg) ;
+	backface-visibility: hidden;
+	overflow: auto;
+
+	background: black;
+}
+
+
+/*.contenedor_tarjeta:nth-child(1,2,3,4,5,6,7,8,9) figure .trasera 
+{}*/
+
+
+figure .trasera .titulo {
+	text-align: center;
+	color:white;
+	font-weight: normal;
+	margin-bottom: 20px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+
+figure .trasera hr {
+	border-radius: 50px;
+	height: 1px;
+	background: white;
+	border:none;
+	margin-bottom: 20px;
+	opacity: .5s;
+}
+
+figure .trasera p {
+	text-align: justify;
+	line-height: 22px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.trasera::-webkit-scrollbar
+{
+ display: none;
+}
+
+.search.active
+{
+  width: 360px;
+}
+
+.search .icon
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  background: black;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  cursor: pointer;
+}
+
+.search .icon::before
+{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 3px solid red;
+  border-radius: 50%;
+  transform: translate(-4px,-4px);
+}
+
+.search .icon::after
+{
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+  transform: translate(6px,6px) rotate(315deg);
+}
+.search .input
+{
+  position: relative;
+  width: 300px;
+  height: 35px;
+  left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search .input input
+{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 10px 0;
+	background: black;
+	color: red;
+}
+::placeholder
+{
+	color: red;
+}
+.clear
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  right: 15px;
+  background: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear::before
+{
+  position: absolute;
+  content: '';
+  width: 3px;
+  height: 15px;
+  background: red;
+  transform: rotate(45deg);
+}
+.clear::after
+{
+  position: absolute;
+  content: '';
+  width: 3px;
+  height: 15px;
+  background: red;
+  transform: rotate(315deg);
+}
+
+
+/* pie de pagina */
+
+.sci
+{
+     position: absolute;
+     bottom: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.sci li
+{
+     list-style: none;
+}
+.sci li a
+{
+     position: relative;
+     display: inline-block;
+     margin-right: 15px;
+     width: 50px;
+     height: 50px;
+     background: red;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: 0.2s ease-in-out;
+}
+.sci li a img
+{
+	user-select: none;
+	width: 50px;
+	height: 50px;
+    filter: invert(1);
+    transform: scale(0.5);
+}
+.sci li a:hover
+{
+     background: black;
+     transform: translateY(-10px);
+}
+footer 
+{
+	 user-select: none;
+     position: relative;
+     width: 100%;
+     min-height: 85vh;
+     padding: 100px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     background: url('img1/fon1.jpg');
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     overflow: hidden;
+}
+footer p
+{
+	font-weight: 700;
+	font-size: 35px;
+	margin: 20px 20px;
+	text-align: center;
+}
+footer p a
+{
+  user-select: none;
+  color: red;
+  text-decoration: none;
+}
+footer p a:hover
+{
+  user-select: none;
+  text-decoration: underline;
+  color:white;
+}
+.derechos
+{
+	background: black;
+	color: gray;
+	text-shadow: 0px 0px 10px white;
+}
+.derechos p
+{
+	font-size: 20px;
+}
+
+/* .pie .pagina img:hover {
+	border-radius: 100px;
+	background: linear-gradient(315deg,rgb(0, 204, 255),blue);
+	box-shadow: 0px 0px 80px 10px;
+	color: rgb(0, 162, 255);
+	transition: all 100ms ease;
+}
+
+.pie2 .pagina2 img:hover {
+	border-radius: 18px;
+	background: linear-gradient(315deg,red,rgb(255, 255, 255));
+	box-shadow: 0px 0px 80px 10px;
+	color: rgb(255, 1, 1);
+	transition: all 100ms ease;
+}
+
+.pie3 .pagina3 img:hover {
+	border-radius: 15px;
+	background: linear-gradient(315deg,pink,rgb(248, 7, 168));
+	box-shadow: 0px 0px 80px 10px;
+	color: rgb(255, 7, 152);
+	transition: all 100ms ease;
+} */
