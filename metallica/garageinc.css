@@ -6,7 +6,7 @@
 }
 body
 {
-	background: url('../img/megadeth/youthanasia1994.jpg');
+	background: url('../img/metallica/garageinc1998.jpg');
 	width: auto;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -47,7 +47,7 @@ header
 header .logo
 {
 	position: relative;
-	color: rgb(101, 117, 53);
+	color: rgb(182, 239, 250);
 	display: inline-block;
 	font-size: 1.5em;
 	text-decoration: none;
@@ -69,7 +69,7 @@ header ul li
 header ul li a
 {
 	display: inline-block;
-	color: rgb(101, 117, 53);
+	color: rgb(182, 239, 250);
 	font-weight: 600;
 	font-size: 1.1em;
 	margin-left: 10px;
@@ -81,7 +81,7 @@ header ul li a
 header ul li a.active,
 header ul li a:hover
 {
-	background: rgb(101, 117, 53);
+	background: rgb(182, 239, 250);
 	color:black;
 	border-radius: 30px;
 }
@@ -97,7 +97,7 @@ header ul li a:hover
 .content .textBox h2
 {
 	user-select: none;
-	color: white;
+	color: black;
 	font-size: 3.5em;
 	margin-bottom: 10px;
 	line-height: 1.2em;
@@ -106,13 +106,13 @@ header ul li a:hover
 .content .textBox p
 {
 	font-size: 35px;
-	color: white;
+	color: black;
 	font-weight: bold;
 }
 .content .textBox a:hover
 {
 	background: black;
-	color: rgb(101, 117, 53);
+	color: rgb(182, 239, 250);
 }
 .content .textBox a
 {
@@ -120,7 +120,7 @@ header ul li a:hover
 	display: inline-block;
 	margin-top: 20px;
 	padding: 15px 30px;
-	background: rgb(101, 117, 53);
+	background: rgb(182, 239, 250);
 	color: black;
 	font-size: 1.2em;
 	border-radius: 40px;
@@ -148,7 +148,7 @@ header ul li a:hover
      width: 50px;
      height: 50px;
      color: black;
-     background: rgb(101, 117, 53);
+     background: rgb(182, 239, 250);
      border-radius: 50%;
      display: flex;
      justify-content: center;
@@ -174,7 +174,7 @@ header ul li a:hover
 }
 .sci li a:hover .fa
 {
-	color: rgb(101, 117, 53);
+	color: rgb(182, 239, 250);
 }
 section 
 {
@@ -197,7 +197,7 @@ section
 	margin: -10px;
 	padding: 0px;
 	border-radius: 50px;
-	box-shadow: 5px 0px 40px 5px rgb(101, 117, 53);
+	box-shadow: 5px 0px 40px 5px rgb(182, 239, 250);
 }
 
 footer 
