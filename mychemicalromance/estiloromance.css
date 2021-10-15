@@ -11,7 +11,7 @@ body::-webkit-scrollbar
 body
 {
 	background: url('../img/romance/Mychemicalromance.jpg');
-	width: auto;
+	position: relative;
 	background-position: 50% 50%;
 }
 body p
@@ -111,7 +111,7 @@ header ul li a:hover
 {
 	user-select: none;
 	display: inline-block;
-	margin-top: 20px;
+	margin-top: 5px;
 	padding: 15px 30px;
 	background: black;
 	color: #ffff;
@@ -124,7 +124,7 @@ header ul li a:hover
 .sci
 {
      position: absolute;
-     bottom: 40px;
+     bottom: 35px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -174,21 +174,13 @@ section
      position: relative;
      width: 100%;
      min-height: 96vh;
-     padding: 120px;
+
+     /*me ayudo para que se colocara la imagen finga sin tener que bajar para ver la propiedad de los derechos*/
+
+     padding: 110px;
      display: flex;
      justify-content: flex-start;
      align-items: center;
-}
-
-.win
-{
-	position: absolute;
-	right: 40px;
-	max-width: 400px;
-	max-height: 550px;
-	margin: 10px;
-	padding: 40px;
-	border-radius: 50px;
 }
 footer 
 {

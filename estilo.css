@@ -20,7 +20,6 @@ body
 {
 	background: black;
 	color: red;
-	font-weight: bold;
 }
 /*body p
 {
@@ -39,7 +38,6 @@ h2
 	user-select: none;
 	margin: 90px;
 }
-
 .contexto h1
 {
 	top: 0;
@@ -99,7 +97,6 @@ header ul li a
 	font-weight: 600;
 	font-size: 1.1em;
 	margin-left: 10px;
-	display: inline-block;
 	padding: 8px 10px;
 	text-decoration: none;
 	user-select: none;
@@ -117,16 +114,17 @@ header ul li a:hover
 
 .contenedor
 {
-	width: 100%;
-	display:flex;
-	justify-content: center;
+	max-width: 100%;
+	display: inline-block;
 	align-items: center;
-	height: 68vh;
+	height: 65vh;
 	user-select: none;
+	justify-items: center;
 }
 .contenedor figure
 {
-	margin: 40px;
+	display: flex;
+	margin: 70px 50px;
 	position: relative;
 	height: 350px;
 	width: 350px;
@@ -171,13 +169,12 @@ header ul li a:hover
 	font-weight: 800px;
 	margin-bottom: 120px;
 	transition: all 500ms ease-out;
-	margin-top: 30px;
-	font-size: 40px;
+	font-size: 35px;
 }
 .contenedor figure .capa p
 {
 	color: white;
-	font-size: 27px;
+	font-size: 35px;
 	line-height: 1.5;
 	width: 100%;
 	max-width: 270px;
@@ -202,51 +199,22 @@ header ul li a:hover
 	color: red;
 }
 
-.sci
-{
-     position: absolute;
-     bottom: 40px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
-.sci li
-{
-     list-style: none;
-}
-.sci li a
-{
-     position: relative;
-     display: inline-block;
-     margin-right: 15px;
-     width: 50px;
-     height: 50px;
-     background: red;
-     border-radius: 50%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     transition: 0.2s ease-in-out;
-}
-.sci li a:hover
-{
-     background: black;
-     transform: translateY(-10px);
-}
 footer 
 {
 	 user-select: none;
      position: relative;
      width: 100%;
      min-height: 85vh;
+	 margin-top: 100px;
+	 padding: 100px;
      display: flex;
-     justify-content: flex-start;
+	 justify-content: flex-start;
      align-items: center;
      background: url('img1/fon1.jpg');
      background-size: cover;
      background-position: center;
      background-attachment: fixed;
-     overflow: hidden;
+	 overflow: hidden;
 }
 footer p
 {
