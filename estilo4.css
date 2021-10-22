@@ -12,6 +12,7 @@ body::-webkit-scrollbar
 {
     width: 7px;
     background: transparent;
+	display: none;
 }
 body::-webkit-scrollbar-thumb
 {
@@ -108,59 +109,27 @@ body p
 	color: white;
 }
 
-.main {
-	user-select: none;
-	width: 90%;
-	max-width: 1000px;
-	margin: 160px 160px;
-}
-
-.slides {
-	width: 100%;
-}
-.slides img{
-	filter: blur(10px);
-	width: auto;
-	position: absolute;
-}
-
-.slidesjs-pagination {
-	border-radius: 15px;
-	background:black;
-	list-style: none;
-	overflow: hidden;
-}
-
-.slidesjs-pagination li {
-	float: left;
-}
-
-.slidesjs-pagination li a{
-	display: block;
-	padding: 10px 15px;
-	color: white;
-	text-decoration: none;
-}
-
-.slidesjs-pagination li a:hover {
-	background: red;
-	border-radius: 50px;
-}
-
-.slide .active {
-	background: black;
-}
-section p
+/* cuerpo de la página */
+.imagenes
 {
+	padding: 0;
+	margin: 95px;
 	text-align: center;
-	font-size: 50px;
-	position: relative;
-	margin: 140px;
+	flex-wrap: wrap;
 }
-
+img 
+{
+	margin-top: 12px;
+	height: auto;
+	width: auto;
+	top: 0;
+	border-radius: 15%;
+	left: 125px;
+	box-shadow: 0px 0px 40px rgba(255, 0, 0, 0.753);
+}
+	/* pie de la página */
 .sci
 {
-     position: absolute;
      bottom: 40px;
      display: flex;
      justify-content: center;
@@ -197,35 +166,12 @@ section p
      background: black;
      transform: translateY(-10px);
 }
-footer 
-{
-     position: relative;
-     width: 100%;
-     min-height: 85vh;
-     padding: 100px;
-     display: flex;
-     justify-content: flex-start;
-     align-items: center;
-     background: url('img1/fon1.jpg');
-     background-size: cover;
-     background-position: justify;
-     background-attachment: fixed;
-     overflow: hidden;
-	 user-select: none;
-}
-footer p
-{
-	color: red;
-	font-weight: 700;
-	font-size: 35px;
-	margin: 20px 20px;
-	text-align: center;
-}
+
+ /* pie de la página */
 .derechos
 {
 	background: black;
 	color: gray;
-	text-shadow: 0px 0px 10px white;
 }
 .derechos p
 {
