@@ -168,15 +168,16 @@ img
 }
 
  /* pie de la página */
-.derechos
-{
-	background: black;
-	color: gray;
-}
-.derechos p
-{
-	font-size: 20px;
-}
+ .derechos
+ {
+	 background: black;
+	 color: gray;
+ }
+ .derechos p
+ {
+	 font-size: 25px;
+	 font-weight: bold;
+ }
 /* .pie .pagina img:hover {
 	border-radius: 100px;
 	background: linear-gradient(315deg,rgb(0, 204, 255),blue);

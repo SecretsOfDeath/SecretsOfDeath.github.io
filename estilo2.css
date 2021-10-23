@@ -19,16 +19,12 @@ body
 	background: black;
 	background-position: center;
 	font-weight: bold;
-	font-family: 'Nunito';
 	color: red;
 }
 
 body p
 {
 	user-select: none;
-	letter-spacing: 2px;
-	font-family: 'Trebuchet MS';
-	font-size: 30px;
 	text-align: center;
 	word-spacing: 10px;
 }
@@ -49,6 +45,47 @@ body p
 	font-family: 'Nunito', sans-serif;
 	color: white;
 }
+	/* seccion para el cuadro de busqueada */
+
+
+.caja
+{
+	border-radius: 30px;
+	margin: 30px;
+	text-align: center;
+}
+.caja_chica input#search
+{
+	padding: 10px;
+	top: 0;
+	border-radius: 20px;
+	background: black;
+	color: red;
+	border: none;
+	float: center;
+	-webkit-border-radius: 10px;
+  	-moz-border-radius: 10px;
+	
+	
+	  -webkit-transition: background .55s ease;
+	-moz-transition: background .55s ease;
+	-ms-transition: background .55s ease;
+	-o-transition: background .55s ease;
+	transition: background .55s ease;
+}
+.caja_chica input#search::-webkit-input-placeholder {
+	color: red;
+ }
+ .caja_chica .icon
+ {
+	 top: 50%;
+	 z-index: 1;
+	 color: red;
+ }
+ .caja_chica input#search:hover, .caja_chica input#search:focus, .caja_chica input#search:active{
+    outline:none;
+    /* background: #ffffff; */
+  }
 
 header
 {
@@ -105,6 +142,7 @@ header ul li a:hover
 	border-radius: 30px;
 }
 
+
 .contenedor {
 	max-width: 100%;
 	margin: 5px 5px;
@@ -115,7 +153,7 @@ header ul li a:hover
 }
 
 .contenedor_tarjeta {
-	margin: 50px;
+	margin: 45px;
 }
 
 .contenedor_tarjeta a{
@@ -170,7 +208,6 @@ figure .trasera {
 	transform: perspective(300px) rotateY(180deg) ;
 	backface-visibility: hidden;
 	overflow: auto;
-
 	background: black;
 }
 
@@ -184,8 +221,9 @@ figure .trasera .titulo {
 	color:white;
 	font-weight: normal;
 	margin-bottom: 20px;
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: 600;
+	margin-top: 20px;
 }
 
 
@@ -199,9 +237,10 @@ figure .trasera hr {
 }
 
 figure .trasera p {
+	margin: 10px;
 	text-align: justify;
 	line-height: 22px;
-	font-size: 16px;
+	font-size: 19px;
 	font-weight: 600;
 }
 
@@ -335,7 +374,6 @@ footer
 }
 footer p
 {
-	font-weight: 700;
 	font-size: 35px;
 	margin: 20px 20px;
 	text-align: center;
@@ -356,11 +394,11 @@ footer p a:hover
 {
 	background: black;
 	color: gray;
-	text-shadow: 0px 0px 10px white;
 }
 .derechos p
 {
-	font-size: 20px;
+	font-size: 25px;
+	font-weight: bold;
 }
 
 /* .pie .pagina img:hover {

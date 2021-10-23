@@ -71,6 +71,10 @@ header ul li a:hover
 {
   margin: 50px;
 }
+.patreon1
+{
+  margin: 50px;
+}
 .socialMedia
 {
   display: flex;
@@ -140,6 +144,11 @@ header ul li a:hover
   background: #0099ff;
   box-shadow: 0px 0px 5px 5px white;
 }
+.sci li a:hover.patreon
+{
+  background: #FF5C50;
+  box-shadow: 0px 0px 5px 5px white;
+}
 .sci li a .fa
 {
   transition: 0.25s;
@@ -159,10 +168,8 @@ header ul li a:hover
   background: black;
   color: gray;
   user-select: none;
-  text-shadow: 0px 0px 10px white;
 }
 .derechos p
 {
   font-size: 20px;
 }
-  

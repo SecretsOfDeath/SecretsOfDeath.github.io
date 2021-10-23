@@ -228,12 +228,12 @@ footer p
 	text-align: center;
 	background: black;
 	color: gray;
-	text-shadow: 0px 0px 10px white;
 	user-select: none;
 }
 .derechos p
 {
-	font-size: 20px;
+	font-size: 25px;
+	font-weight: bold;
 }
 
 /* footer ol img{
