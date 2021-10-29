@@ -73,13 +73,6 @@ header a
 {
 	user-select: none;
 }
-header a:hover
-{
-	background: red;
-	color: white;
-	border-radius: 10px;
-	padding: auto;
-}
 header ul
 {
 	position: relative;
@@ -255,7 +248,7 @@ figure .trasera p {
 }
 .sci li a:hover .fa
 {
-	columns: #fff;
+	color: #fff;
 }
 footer 
 {
@@ -275,7 +268,7 @@ footer
 footer p
 {
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 20px;
 	margin: 20px 20px;
 	text-align: center;
 }
