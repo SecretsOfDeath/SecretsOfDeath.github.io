@@ -1,3 +1,14 @@
+:root
+{
+	--primary-color: red;
+	--second-color: black;
+	--three-color: white;
+	--four-color: gray;
+}
+html
+{
+	font-size: 62.5%;
+}
 *
 {
 	margin: 0;
@@ -12,7 +23,7 @@ body
 {
 	background: url('../img/augusburnsred/augustburnsred1.jpg');
 	width: auto;
-	background-position: 50% -59%;
+	background-position: 50% -51%;
 	background-size: cover;
 }
 body p

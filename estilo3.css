@@ -1,3 +1,10 @@
+:root
+{
+	--primary-color: red;
+	--second-color: black;
+	--three-color: white;
+	--four-color: gray;
+}
 *
 {
 	margin: 0;
@@ -11,14 +18,14 @@ body::-webkit-scrollbar
 }
 body::-webkit-scrollbar-thumb
 {
-	background: red;
+	background: var(--primary-color);
 	border-radius: 50px;
 }
 body 
 {
-	background: black;
+	background: var(--second-color);
 	background-position: center;
-	color: red;
+	color: var(--primary-color);
 	font-weight: bold;
 }
 body p
@@ -45,7 +52,7 @@ body p
 	position: relative;
 	overflow: hidden;
 	margin: 20px;
-	border: 3px solid white;
+	border: 3px solid var(--three-color);
 }
 .box img
 {
@@ -68,7 +75,7 @@ body p
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
+	color: var(--three-color);
 	transform: scale(0);
 	transition: .5s ease;
 }
@@ -76,7 +83,7 @@ body p
 {
 	text-decoration: none;
 	font-size: 30px;
-	color: white;
+	color: var(--three-color);
 }
 .box:hover .capa
 {
@@ -96,7 +103,7 @@ body p
 	background-attachment: fixed;
 	overflow: hidden;
 	user-select: none;
-	color: white;
+	color: var(--three-color);
 }
 header
 {
@@ -109,12 +116,12 @@ header
 	justify-content: space-between;
 	align-items: center;
 	z-index: 1000;
-	background: black;
+	background: var(--second-color);
 }
 header .logo
 {
 	position: relative;
-	color: red;
+	color: var(--primary-color);
 	display: inline-block;
 	font-size: 1.5em;
 	text-decoration: none;
@@ -126,8 +133,8 @@ header a
 }
 header a:hover
 {
-	background: red;
-	color: white;
+	background: var(--primary-color);
+	color: var(--three-color);
 	border-radius: 10px;
 	padding: auto;
 }
@@ -143,7 +150,7 @@ header ul li
 header ul li a
 {
 	display: inline-block;
-	color: red;
+	color: var(--primary-color);
 	font-weight: 600;
 	font-size: 1.1em;
 	margin-left: 10px;
@@ -155,8 +162,8 @@ header ul li a
 header ul li a.active,
 header ul li a:hover
 {
-	background: red;
-	color:#ffff;
+	background: var(--primary-color);
+	color: var(--three-color);
 	border-radius: 30px;
 }
 
@@ -181,7 +188,7 @@ header ul li a:hover
      margin-right: 15px;
      width: 50px;
      height: 50px;
-     background: red;
+     background: var(--primary-color);
      border-radius: 50%;
      display: flex;
      justify-content: center;
@@ -190,14 +197,14 @@ header ul li a:hover
 }
 .sci li a:hover
 {
-     background: black;
+     background: var(--second-color);
      transform: translateY(-10px);
 }
 footer .derechos
 {
-	background: black;
-	color: gray;
-	text-shadow: 0px 0px 10px white;
+	background: var(--second-color);
+	color: var(--four-color);
+	text-shadow: 0px 0px 10px var(--three-color);
 }
 footer .derechos p
 {
