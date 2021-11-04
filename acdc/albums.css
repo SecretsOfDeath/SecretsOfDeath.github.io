@@ -179,7 +179,6 @@ figure .trasera {
 	transform: perspective(300px) rotateY(180deg) ;
 	backface-visibility: hidden;
 	overflow: auto;
-
 	background: var(--second-color);
 }
 
