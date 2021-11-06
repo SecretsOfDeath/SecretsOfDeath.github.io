@@ -1,6 +1,6 @@
 :root
 {
-	--primary-color: rgb(182, 49, 24);
+	--primary-color: rgb(165, 68, 19);
 	--second-color: black;
 	--three-color: white;
 	--four-color: gray;
@@ -17,10 +17,10 @@ html
 }
 body
 {
-	background: url('../img/arch/khaoslegions2011.jpg');
+	background: url('../img/machinehead/burnmyeyes1994.jpg');
 	width: auto;
 	background-size: cover;
-	background-position: 50% 20%;
+	background-position: 50% -10%;
 }
 body p
 {
@@ -180,14 +180,14 @@ header ul li a:hover
 .sci li a:hover
 {
      background: var(--second-color);
-	box-shadow: 0px 0px 0px 0px;
+	 box-shadow: 0px 0px 0px 0px;
      transform: translateY(-10px);
 }
 .sci li a:hover .fa
 {
 	color: var(--primary-color);
 }
-section
+section 
 {
      position: relative;
      width: 100%;

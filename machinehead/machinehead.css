@@ -1,6 +1,6 @@
 :root
 {
-	--primary-color: rgb(182, 49, 24);
+	--primary-color: red;
 	--second-color: black;
 	--three-color: white;
 	--four-color: gray;
@@ -15,31 +15,24 @@ html
 	padding: 0;
 	box-sizing: border-box;
 }
+body::-webkit-scrollbar 
+{
+    display: none;
+}
 body
 {
-	background: url('../img/arch/khaoslegions2011.jpg');
+	background: url('../img/machinehead/machinehead.jpg');
 	width: auto;
-	background-size: cover;
-	background-position: 50% 20%;
+	background-position: 50% -5%;
 }
 body p
 {
 	text-align: justify;
 	user-select: none;
 }
-img
-{
-	filter: blur(10px);
-}
-
-img:hover
-{
-	filter: blur(0px);
-}
-
 h2
 {
-	text-align: left;
+	text-align: center;
 	user-select: none;
 }
 header
@@ -82,7 +75,7 @@ header ul li a
 	display: inline-block;
 	color: var(--primary-color);
 	font-weight: 600;
-	font-size: 1.6rem;
+	font-size: 1.6em;
 	margin-left: 10px;
 	display: inline-block;
 	padding: 8px 10px;
@@ -93,7 +86,7 @@ header ul li a.active,
 header ul li a:hover
 {
 	background: var(--primary-color);
-	color:var(--second-color);
+	color:var(--three-color);
 	border-radius: 30px;
 }
 .content
@@ -108,22 +101,22 @@ header ul li a:hover
 .content .textBox h2
 {
 	user-select: none;
-	color: var(--three-color);
-	font-size: 3.5em;
+	color: var(--primary-color);
+	font-size: 5.9rem;
 	margin-bottom: 10px;
-	line-height: 1.2em;
-	font-weight: 700;
+	line-height: 1.2rem;
+	padding: 25px;
 }
 .content .textBox p
 {
-	font-size: 35px;
-	color: var(--three-color);
+	font-size: 2.5rem;
+	color:var(--primary-color);
 	font-weight: bold;
 }
 .content .textBox a:hover
 {
-	background: var(--second-color);
-	color: var(--primary-color);
+	background: var(--primary-color);
+	color: var(--three-color);
 }
 .content .textBox a
 {
@@ -131,9 +124,9 @@ header ul li a:hover
 	display: inline-block;
 	margin-top: 20px;
 	padding: 15px 30px;
-	background: var(--primary-color);
-	color: var(--second-color);
-	font-size: 2.0em;
+	background: var(--second-color);
+	color: var(--three-color);
+	font-size: 2.0rem;
 	border-radius: 40px;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -158,15 +151,15 @@ header ul li a:hover
      margin-right: 15px;
      width: 50px;
      height: 50px;
-	 color: var(--second-color);
-     background: var(--primary-color);
+	color: var(--primary-color);
+     background: var(--second-color);
      border-radius: 50%;
      display: flex;
      justify-content: center;
      align-items: center;
      transition: 0.2s ease-in-out;
 	text-decoration: none;
-	box-shadow: 0px 10px 7px 0px var(--second-color);
+	box-shadow: 0px 10px 7px 0px var(--primary-color);
 	font-size: 30px;
 }
 /* .sci li a img
@@ -179,38 +172,35 @@ header ul li a:hover
 } */
 .sci li a:hover
 {
-     background: var(--second-color);
+     background: var(--primary-color);
 	box-shadow: 0px 0px 0px 0px;
      transform: translateY(-10px);
 }
 .sci li a:hover .fa
 {
-	color: var(--primary-color);
+	color: var(--three-color);
 }
-section
+section 
 {
      position: relative;
      width: 100%;
      min-height: 96vh;
-     padding: 150px;
+     padding: 120px;
      display: flex;
      justify-content: flex-start;
      align-items: center;
 }
 
-
 .win
 {
 	position: absolute;
-	right: 20%;
-	max-width: 350px;
-	max-height: 350px;
-	margin: -10px;
-	padding: 0px;
+	right: 40px;
+	max-width: 400px;
+	max-height: 550px;
+	margin: 10px;
+	padding: 40px;
 	border-radius: 50px;
-	box-shadow: 5px 0px 40px 5px var(--primary-color);
 }
-
 footer 
 {
 	width: auto;
