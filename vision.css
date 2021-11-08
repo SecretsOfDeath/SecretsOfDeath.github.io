@@ -78,6 +78,8 @@ body
 {
      font-weight: bold;
      background-color: black;
+     background-size: cover;
+     background-position: center;
      position: relative;
 }
 
@@ -192,7 +194,7 @@ body::-webkit-scrollbar-thumb
 {
      padding: 30px;
      top: 850px;
-     left: 170px;
+     left: 100px;
      text-align: center;
      position: absolute;
      font-size: 3.5rem;
