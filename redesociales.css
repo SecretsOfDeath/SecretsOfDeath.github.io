@@ -10,6 +10,7 @@ html
 body
 {
   background: black;
+  font-weight: bold;
 }
 body::-webkit-scrollbar 
 {

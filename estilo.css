@@ -2,10 +2,10 @@
 {
 	--primary-color: red;
 	--second-color: black;
-	--three-color: rgb(255, 0, 0, 0.35);
+	--three-color: rgb(102, 2, 1);
 	--four-color: white;
 	--five-color: gray;
-	--six--color: rgba(0, 0, 0, 0.8);
+	--six--color: rgba(0,0,0,0.8);
 }
 *
 {
@@ -20,7 +20,7 @@ html
 body::-webkit-scrollbar 
 {
     width: 1rem;
-    background: transparent;
+    background: black;
 }
 body::-webkit-scrollbar-thumb
 {
@@ -30,8 +30,7 @@ body::-webkit-scrollbar-thumb
 
 body 
 {
-	background-position: center;
-	background: var(--second-color);
+	background-color: var(--second-color);
 	color: var(--primary-color);
 	font-weight: bold;
 }
@@ -41,34 +40,41 @@ body p
 	text-align: center;
 	word-spacing: 10px;
 }
-/*body p
-{
-	user-select: none;
-	letter-spacing: auto;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 30px;
-	text-align: center;
-}*/
 h2
 {
 	text-align: center;
 	font-size: 6.5rem;
 	font-weight: bold;
-	color: var(--primary-color);
+	color: var(--three-color);
+	background-color: var(--second-color);
+	border-radius: 15px;
+	padding: 15px;
+	border: solid 1px var(--three-color);
 	user-select: none;
 	margin: 90px;
+}
+h2:hover
+{
+	transition: 2s;
+	color: var(--primary-color);
+	border: solid 0.1px var(--primary-color);
+}
+h2
+{
+	transition: all ease 2s;
+
 }
 .contexto h1
 {
 	top: 0;
-	padding: 150px;
+	padding: 170px;
 	height: auto;
 	width: auto;
 	text-align: center;
 	font-size: 9.9rem;
-	background: url('img/detodo/sod1.jpg');
 	background-size: cover; 
 	background-position: center;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img1/backsod.jpg);
 	background-attachment: fixed;
 	overflow: hidden;
 	user-select: none;
@@ -86,7 +92,7 @@ header
 	justify-content: space-between;
 	align-items: center;
 	z-index: 1000;
-	background: var(--second-color);
+	background: var(--six--color);
 }
 header .logo
 {
@@ -128,9 +134,6 @@ header ul li a:hover
 	border-radius: 30px;
 }
 
-
-
-
 .contenedor
 {
 	max-width: 100%;
@@ -152,7 +155,11 @@ header ul li a:hover
 }
 .contenedor figure:hover
 {
-	box-shadow: 0px 15px 25px var(--three-color);
+	box-shadow: 0px 5px 35px 0px var(--primary-color);
+}
+.contenedor figure
+{
+	transition: all 2s;
 }
 .contenedor figure img
 {
@@ -184,6 +191,10 @@ header ul li a:hover
 .contenedor figure:hover > img
 {
 	transform: scale(1.6);
+}
+.contenedor figure > img
+{
+	transition: all ease 2s;
 }
 .contenedor figure .capa h3
 {
@@ -223,20 +234,19 @@ header ul li a:hover
 
 footer 
 {
-	 user-select: none;
+	user-select: none;
      position: relative;
      width: 100%;
      min-height: 85vh;
-	 margin-top: 100px;
-	 padding: 100px;
+	padding: 100px;
      display: flex;
-	 justify-content: flex-start;
+	justify-content: flex-start;
      align-items: center;
-     background: url('img1/fon1.jpg');
      background-size: cover;
+	background-image: url(img1/back.jfif);
      background-position: center;
      background-attachment: fixed;
-	 overflow: hidden;
+	overflow: hidden;
 }
 footer p
 {
@@ -244,6 +254,16 @@ footer p
 	font-size: 3.9rem;
 	text-align: center;
 	margin: 20px 20px ;
+}
+footer p a
+{
+	text-decoration: none;
+	color: var(--five-color);
+}
+footer p a:hover
+{
+	text-decoration: underline;
+	color: var(--primary-color);
 }
 .derechos
 {
@@ -257,39 +277,3 @@ footer p
 	font-size: 2.9rem;
 	font-weight: bold;
 }
-
-/* footer ol img{
-	user-select: none;
-	margin: 30px;
-	padding: 2px;
-	width: 40px;
-	height: 40px;
-	float: left;
-}
-
-
-
-
-.pie .pagina img:hover {
-	border-radius: 100px;
-	background: linear-gradient(315deg,rgb(0, 204, 255),blue);
-	box-shadow: 0px 0px 80px 10px;
-	color: rgb(0, 162, 255);
-	transition: all 100ms ease;
-}
-
-.pie2 .pagina2 img:hover {
-	border-radius: 18px;
-	background: linear-gradient(315deg,red,rgb(255, 255, 255));
-	box-shadow: 0px 0px 80px 10px;
-	color: rgb(255, 1, 1);
-	transition: all 100ms ease;
-}
-
-.pie3 .pagina3 img:hover {
-	border-radius: 15px;
-	background: linear-gradient(315deg,pink,rgb(248, 7, 168));
-	box-shadow: 0px 0px 80px 10px;
-	color: rgb(255, 7, 152);
-	transition: all 100ms ease;
-} */

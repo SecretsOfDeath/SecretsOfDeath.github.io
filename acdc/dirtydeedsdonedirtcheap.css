@@ -1,6 +1,6 @@
 :root
 {
-	--primary-color: rgb(172, 85, 31);
+	--primary-color: rgb(229, 85, 124);
 	--second-color: black;
 	--three-color: white;
 	--four-color: gray;
@@ -17,7 +17,7 @@ html
 }
 body
 {
-	background: url('../img/acdc/flyonthewall.jpg');
+	background: url('../img/acdc/dirtydeedsdonedirtcheap1976.jpg');
 	width: auto;
 	background-size: cover;
 	background-position: 50% 50%;

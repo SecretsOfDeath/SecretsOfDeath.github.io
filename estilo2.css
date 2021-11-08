@@ -4,6 +4,7 @@
 	--second-color: black;
 	--three-color: white;
 	--four-color: gray;
+	--five--color: rgba(0,0,0,0.8);
 }
 *
 {
@@ -51,12 +52,12 @@ h2
 .contexto h1
 {
 	top: 0;
-	padding: 150px;
+	padding: 170px;
 	height: auto;
 	width: auto;
 	text-align: center;
-	font-size: 9.9rem;
-	background: url('img/detodo/sod1.jpg');
+	font-size: 11rem;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img1/backsod.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -88,7 +89,7 @@ header
 	justify-content: space-between;
 	align-items: center;
 	z-index: 1000;
-	background: var(--second-color);
+	background: var(--five--color);
 }
 header .logo
 {
@@ -300,8 +301,8 @@ figure .trasera p {
   outline: none;
   font-size: 18px;
   padding: 10px 0;
-	background: var(--second-color);
-	color: var(--primary-color);
+  background: var(--second-color);
+  color: var(--primary-color);
 }
 ::placeholder
 {
@@ -346,37 +347,34 @@ figure .trasera p {
 
 footer 
 {
-	 user-select: none;
+   user-select: none;
    position: relative;
-   width: 100%;
-   min-height: 85vh;
-   padding: 100px;
+   min-height: 70vh;
+   text-align: center;
    display: flex;
    justify-content: flex-start;
    align-items: center;
-   background: url('img1/fon1.jpg');
+   background-image: url(img1/back.jfif);
    background-size: cover;
    background-position: center;
-   background-attachment: fixed;
-   overflow: hidden;
 }
 footer p
 {
 	font-size: 3.9rem;
-	margin: 20px 20px;
-	text-align: center;
+	left: 370px;
+	position: relative;
 }
 footer p a
 {
   user-select: none;
-  color: var(--primary-color);
+  color: var(--four-color);
   text-decoration: none;
 }
 footer p a:hover
 {
   user-select: none;
   text-decoration: underline;
-  color:var(--three-color);
+  color:var(--primary-color);
 }
 .derechos
 {
@@ -388,27 +386,3 @@ footer p a:hover
 	font-size: 2.9rem;
 	font-weight: bold;
 }
-
-/* .pie .pagina img:hover {
-	border-radius: 100px;
-	background: linear-gradient(315deg,rgb(0, 204, 255),blue);
-	box-shadow: 0px 0px 80px 10px;
-	color: rgb(0, 162, 255);
-	transition: all 100ms ease;
-}
-
-.pie2 .pagina2 img:hover {
-	border-radius: 18px;
-	background: linear-gradient(315deg,red,rgb(255, 255, 255));
-	box-shadow: 0px 0px 80px 10px;
-	color: rgb(255, 1, 1);
-	transition: all 100ms ease;
-}
-
-.pie3 .pagina3 img:hover {
-	border-radius: 15px;
-	background: linear-gradient(315deg,pink,rgb(248, 7, 168));
-	box-shadow: 0px 0px 80px 10px;
-	color: rgb(255, 7, 152);
-	transition: all 100ms ease;
-} */

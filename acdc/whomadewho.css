@@ -1,6 +1,6 @@
 :root
 {
-	--primary-color: rgb(172, 85, 31);
+	--primary-color: rgb(93, 135, 182);
 	--second-color: black;
 	--three-color: white;
 	--four-color: gray;
@@ -17,10 +17,10 @@ html
 }
 body
 {
-	background: url('../img/acdc/flyonthewall.jpg');
+	background: url('../img/acdc/whomadewho1986.jpg');
 	width: auto;
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: 50% 68%;
 }
 body p
 {

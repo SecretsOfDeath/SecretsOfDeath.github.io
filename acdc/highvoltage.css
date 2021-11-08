@@ -1,6 +1,6 @@
 :root
 {
-	--primary-color: rgb(172, 85, 31);
+	--primary-color: rgb(229, 167, 52);
 	--second-color: black;
 	--three-color: white;
 	--four-color: gray;
@@ -17,10 +17,10 @@ html
 }
 body
 {
-	background: url('../img/acdc/flyonthewall.jpg');
+	background: url('../img/acdc/highvoltage1976.jpg');
 	width: auto;
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: 50% -7%;
 }
 body p
 {
