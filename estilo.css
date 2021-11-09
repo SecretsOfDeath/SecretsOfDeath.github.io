@@ -20,12 +20,16 @@ html
 body::-webkit-scrollbar 
 {
     width: 1rem;
-    background: black;
+    background: var(--second-color);
 }
 body::-webkit-scrollbar-thumb
 {
-	background: var(--primary-color);
+	background: var(--three-color);
 	border-radius: 50px;
+}
+body::-webkit-scrollbar-thumb:hover
+{
+	background: var(--primary-color);
 }
 
 body 
@@ -52,32 +56,41 @@ h2
 	user-select: none;
 	margin: 100px;
 }
-h2:hover
-{
-	transition: 2s;
-	color: var(--primary-color);
-	box-shadow: 0px 5px 50px var(--primary-color);
-}
 h2
 {
 	transition: all ease 2s;
 
 }
-.contexto h1
+h2:hover
 {
-	top: 0;
-	padding: 170px;
-	height: auto;
+	transition: 2s;
+	color: var(--primary-color);
+	text-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--primary-color), 0 0 15px var(--primary-color), 0 0 50px var(--primary-color);
+}
+.contexto
+{
+	height: 570px;
 	width: auto;
-	text-align: center;
-	font-size: 9.9rem;
 	background-size: cover; 
 	background-position: center;
 	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img1/backsod.jpg);
 	background-attachment: fixed;
 	overflow: hidden;
+}
+.contexto h1
+{
+	top: 0;
+	padding: 170px;
+	text-align: center;
+	font-size: 9.9rem;
 	user-select: none;
-	color :var(--four-color);
+	color: var(--five-color);
+	transition: all ease 2s;
+}
+.contexto h1:hover
+{
+	color: var(--four-color);
+	text-shadow: 0 0 5px var(--four-color), 0 0 10px var(--four-color), 0 0 15px var(--four-color), 0 0 50px var(--four-color);
 }
 
 header
@@ -133,6 +146,7 @@ header ul li a:hover
 	border-radius: 30px;
 }
 
+	/* seccion contenedor uno */
 .contenedor
 {
 	max-width: 100%;
@@ -145,16 +159,16 @@ header ul li a:hover
 .contenedor figure
 {
 	display: inline-block;
-	margin: 70px 50px;
+	margin: 40px 50px;
 	position: relative;
 	height: 350px;
 	width: 350px;
 	overflow: hidden;
-	border-radius: 6px;
+	border-radius: 250px;
 }
 .contenedor figure:hover
 {
-	box-shadow: 0px 5px 35px 0px var(--primary-color);
+	box-shadow: 0px 0px 15px 0px var(--primary-color);
 }
 .contenedor figure
 {
@@ -217,13 +231,113 @@ header ul li a:hover
 	margin: 10px;
 	user-select: none;
 	text-decoration:none;
-	color: var(--four-color);
+	color: var(--five-color);
 	border-radius: 50px;
 	letter-spacing: 1px;
 	font-size: 3.0rem;
 	padding: 10px 5px;
 }
 .contenedor figure a:hover
+{
+	text-decoration: underline;
+/*	border: 1px solid ;
+	border-radius: 50px;*/
+	color: var(--primary-color);
+}
+	/* seccion contenedor 2 */
+
+
+.contenedordos
+{
+	max-width: 100%;
+	display: inline-block;
+	align-items: center;
+	height: 55vh;
+	user-select: none;
+	justify-items: center;
+}
+.contenedordos figure
+{
+	display: inline-block;
+	margin: 25px 50px;
+	position: relative;
+	min-height: 350px;
+	width: 350px;
+	overflow: hidden;
+	border-radius: 250px;
+}
+.contenedordos figure:hover
+{
+	box-shadow: 0px 0px 15px 0px var(--primary-color);
+}
+.contenedordos figure
+{
+	transition: all 2s;
+}
+.contenedordos figure img
+{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+.contenedordos figure .capa
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--six--color); 
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+}
+.contenedordos figure:hover > .capa
+{
+	opacity: 1;
+	visibility: visible;
+}
+.contenedordos figure:hover > .capa h3
+{
+	margin-top: 60px; 
+	margin-bottom: 50px;
+}
+.contenedordos figure:hover > img
+{
+	transform: scale(1.6);
+}
+.contenedordos figure > img
+{
+	transition: all ease 2s;
+}
+.contenedordos figure .capa h3
+{
+	color: var(--four-color);
+	font-weight: 800px;
+	margin-bottom: 200px;
+	transition: all 500ms ease-out;
+	font-size: 3.0rem;
+}
+.contenedordos figure .capa p
+{
+	color: var(--four-color);
+	font-size: 3.0rem;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 270px;
+	margin: auto; 
+}
+.contenedordos figure a
+{
+	margin: 10px;
+	user-select: none;
+	text-decoration:none;
+	color: var(--five-color);
+	border-radius: 50px;
+	letter-spacing: 1px;
+	font-size: 3.0rem;
+	padding: 10px 5px;
+}
+.contenedordos figure a:hover
 {
 	text-decoration: underline;
 /*	border: 1px solid ;
