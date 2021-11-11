@@ -23,6 +23,7 @@ body
 {
 	background: url('../img/adaytoremember/adaytoremember1.jpg');
 	width: auto;
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: 50% 20%;
 }
@@ -92,7 +93,7 @@ header ul li a:hover
 }
 .content
 {
-	position: relative;
+	position: fixed;
 }
 .content .textBox
 {
@@ -103,14 +104,14 @@ header ul li a:hover
 {
 	user-select: none;
 	color: var(--primary-color);
-	font-size: 4.5rem;
+	font-size: 5.9rem;
 	margin-bottom: 10px;
 	line-height: 1.2em;
-	padding: 25px;
+	padding: 10px;
 }
 .content .textBox p
 {
-	font-size: 2.2rem;
+	font-size: 2.5rem;
 	color:var(--primary-color);
 	font-weight: bold;
 }

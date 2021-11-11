@@ -23,6 +23,8 @@ body
 {
 	background: url('../img/acdc/acdc1.jpg');
 	width: auto;
+	background-size: cover;
+	background-attachment: fixed;
 	background-position: 50% -10%;
 }
 body p

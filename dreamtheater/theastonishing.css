@@ -9,6 +9,7 @@ body
 	background: url('../img/dreamtheater/theastonishing1.jpg');
 	width: auto;
 	background-size: cover;
+	background-attachment: fixed;
 	background-position: 50% 50%;
 }
 body p

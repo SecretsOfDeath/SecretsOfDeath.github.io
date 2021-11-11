@@ -23,6 +23,7 @@ body
 {
 	background: url('../img/askingalexandria/askingalexandria1.jpg');
 	width: auto;
+	background-attachment: fixed;
 	background-position: 50% -30%;
 	background-size: cover;
 }

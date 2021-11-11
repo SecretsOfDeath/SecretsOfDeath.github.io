@@ -23,6 +23,7 @@ body
 {
 	background: url('../img/amonamarth/amonamarth1.jpg');
 	width: auto;
+	background-attachment: fixed;
 	background-position: 50% 10%;
 	background-size: cover;
 }
@@ -92,7 +93,7 @@ header ul li a:hover
 }
 .content
 {
-	position: relative;
+	position: fixed;
 }
 .content .textBox
 {

@@ -24,6 +24,7 @@ body
 	background: url('../img/cradleoffilth/Cradleoffilth.jpg');
 	width: auto;
 	background-size: cover;
+	background-attachment: fixed;
 	background-position: 50% -50%;
 }
 body p
@@ -92,7 +93,7 @@ header ul li a:hover
 }
 .content
 {
-	position: relative;
+	position: fixed;
 }
 .content .textBox
 {
@@ -106,7 +107,7 @@ header ul li a:hover
 	font-size: 5.9rem;
 	margin-bottom: 10px;
 	line-height: 1.2rem;
-	padding: 17px;
+	padding: 25px;
 }
 .content .textBox p
 {

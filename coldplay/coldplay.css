@@ -23,6 +23,8 @@ body
 {
 	background: url('../img/coldplay/Coldplay.jpg');
 	width: auto;
+	background-size: cover;
+	background-attachment: fixed;
 	background-position: 50% -20%;
 }
 body p
@@ -91,7 +93,7 @@ header ul li a:hover
 }
 .content
 {
-	position: relative;
+	position: fixed;
 }
 .content .textBox
 {
@@ -109,7 +111,7 @@ header ul li a:hover
 }
 .content .textBox p
 {
-	font-size: 2.4rem;
+	font-size: 2.5rem;
 	color:var(--primary-color);
 	font-weight: bold;
 }

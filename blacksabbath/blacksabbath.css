@@ -23,6 +23,8 @@ body
 {
 	background: url('../img/blacksabbath/blacksabbath1.jpg');
 	width: auto;
+	background-size: cover;
+	background-attachment: fixed;
 	background-position: 50% -50%;
 }
 body p
@@ -91,7 +93,7 @@ header ul li a:hover
 }
 .content
 {
-	position: relative;
+	position: fixed;
 }
 .content .textBox
 {

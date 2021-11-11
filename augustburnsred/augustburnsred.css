@@ -23,6 +23,7 @@ body
 {
 	background: url('../img/augusburnsred/augustburnsred1.jpg');
 	width: auto;
+	background-attachment: fixed;
 	background-position: 50% -51%;
 	background-size: cover;
 }
@@ -93,7 +94,7 @@ header ul li a:hover
 }
 .content
 {
-	position: relative;
+	position: fixed;
 }
 .content .textBox
 {
@@ -113,7 +114,6 @@ header ul li a:hover
 {
 	font-size: 2.5rem;
 	color:var(--primary-color);
-	font-weight: bold;
 }
 .content .textBox a:hover
 {
