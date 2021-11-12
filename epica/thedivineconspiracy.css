@@ -174,7 +174,7 @@ header ul li a:hover
 }
 .sci li a:hover .fa
 {
-  colorrgb(86, 125, 163);
+  color:rgb(86, 125, 163);
 }
 section 
 {
