@@ -8,6 +8,8 @@
 	--five--color: rgba(0,0,0,0.8);
 	--six-color: rgb(102, 2, 1);
 	--seven-color: rgba(0,0,0,0.9);
+	--eight-color: transparent;
+	--nine-color: rgba(170, 168, 168, 0.699);
 }
 *
 {
@@ -102,10 +104,14 @@ header
 header .logo
 {
 	position: relative;
-	color: var(--primary-color);
+	color: var(--nine-color);
 	display: inline-block;
 	font-size: 2.5rem;
 	text-decoration: none;
+}
+header .logo:hover
+{
+	color: var(--three-color);
 }
 header a
 {
@@ -123,7 +129,7 @@ header ul li
 header ul li a
 {
 	display: inline-block;
-	color: var(--primary-color);
+	color: var(--nine-color);
 	font-weight: 600;
 	font-size: 1.6rem;
 	margin-left: 10px;
@@ -134,7 +140,6 @@ header ul li a
 header ul li a.active,
 header ul li a:hover
 {
-	background: var(--primary-color);
 	color:var(--three-color);
 	border-radius: 30px;
 }

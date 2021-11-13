@@ -1,11 +1,12 @@
 :root
 {
-	--primary-color: red;
+	--primary-color: rgba(163, 159, 159, 0.678);
 	--second-color: black;
 	--three-color: rgb(102, 2, 1);
 	--four-color: white;
 	--five-color: gray;
 	--six--color: rgba(0,0,0,0.8);
+	--seven-color: red;
 }
 *
 {
@@ -64,8 +65,8 @@ h2
 h2:hover
 {
 	transition: 2s;
-	color: var(--primary-color);
-	text-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--primary-color), 0 0 15px var(--primary-color), 0 0 50px var(--primary-color);
+	color: var(--seven-color);
+	text-shadow: 0 0 5px var(--seven-color), 0 0 10px var(--seven-color), 0 0 15px var(--seven-color), 0 0 50px var(--seven-color);
 }
 .contexto
 {
@@ -114,6 +115,10 @@ header .logo
 	font-size: 2.5rem;
 	text-decoration: none;
 }
+header .logo:hover
+{
+	color: var(--four-color);
+}
 header a
 {
 	user-select: none;
@@ -141,7 +146,6 @@ header ul li a
 header ul li a.active,
 header ul li a:hover
 {
-	background: var(--primary-color);
 	color: var(--four-color);
 	border-radius: 30px;
 }
@@ -367,6 +371,7 @@ footer p
 	font-size: 3.9rem;
 	text-align: center;
 	margin: 20px 20px ;
+	color: var(--seven-color);
 }
 footer p a
 {
@@ -376,7 +381,7 @@ footer p a
 footer p a:hover
 {
 	text-decoration: underline;
-	color: var(--primary-color);
+	color: var(--seven-color);
 }
 .derechos
 {

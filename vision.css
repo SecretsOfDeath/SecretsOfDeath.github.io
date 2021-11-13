@@ -8,6 +8,7 @@
      --four-color: black;
      --five-color: rgba(0,0,0,0.8);
      --six-color: rgb(102, 2, 1);
+     --seven-color: rgba(172, 168, 168, 0.685);
 }
 *
 {
@@ -38,10 +39,14 @@ header
 header .logo
 {
 	position: relative;
-	color: var(--second-color);
+	color: var(--seven-color);
 	display: inline-block;
 	font-size: 2.6rem;
 	text-decoration: none;
+}
+header .logo:hover
+{
+     color: var(--primary-color);
 }
 header a
 {
@@ -59,7 +64,7 @@ header ul li
 header ul li a
 {
 	display: inline-block;
-	color: var(--second-color);
+	color: var(--seven-color);
 	font-size: 1.6rem;
 	margin-left: 10px;
 	padding: 8px 10px;
@@ -69,7 +74,6 @@ header ul li a
 header ul li a.active,
 header ul li a:hover
 {
-	background: var(--second-color);
 	color:var(--primary-color);
 	border-radius: 30px;
 }
