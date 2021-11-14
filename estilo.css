@@ -162,11 +162,12 @@ header ul li a:hover
 }
 .contenedor figure
 {
-	display: inline-flex	;
-	margin: 40px 50px;
+	left: 25px;
+	display: inline-flex;
+	margin: 30px 45px;
 	position: relative;
 	min-height: 250px;
-	width: 350px;
+	width: 340px;
 	overflow: hidden;
 	border-radius: 250px;
 }
@@ -262,8 +263,9 @@ header ul li a:hover
 }
 .contenedordos figure
 {
+	left: 25px;
 	display: inline-flex;
-	margin: 25px 50px;
+	margin: 30px 45px;
 	position: relative;
 	min-height: 250px;
 	width: 350px;

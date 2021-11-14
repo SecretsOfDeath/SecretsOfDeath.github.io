@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb
 }
 body 
 {
-	background: var(--second-color);
+	background: black;
 	background-position: center;
 	font-weight: bold;
 	color: var(--primary-color);
@@ -109,7 +109,7 @@ header ul li a.active,
 header ul li a:hover
 {
 	background: var(--primary-color);
-	color:#ffff;
+	color:var(--three-color);
 	border-radius: 30px;
 }
 
@@ -146,8 +146,8 @@ header ul li a:hover
 
 /*.contenedor_tarjeta:hover figure img {
 	filter: blur(10px);
-}*/
-
+}
+*/
 figure {
 	padding: 0;
 	width: 320px;
@@ -180,6 +180,7 @@ figure .trasera {
 	transform: perspective(300px) rotateY(180deg) ;
 	backface-visibility: hidden;
 	overflow: auto;
+
 	background: var(--second-color);
 }
 
@@ -208,8 +209,12 @@ figure .trasera hr {
 figure .trasera p {
 	text-align: center;
 	line-height: 22px;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 600;
+}
+.trasera::-webkit-scrollbar
+{
+ display: none;
 }
 
 .sci
