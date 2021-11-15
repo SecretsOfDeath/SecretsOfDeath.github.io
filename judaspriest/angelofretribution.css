@@ -1,3 +1,14 @@
+:root
+{
+	--primary-color: rgb(159, 172, 173);
+	--second-color: black;
+	--three-color: white;
+	--four-color: gray;
+}
+html
+{
+	font-size: 62.5%;
+}
 *
 {
 	margin: 0;
