@@ -183,7 +183,7 @@ figure {
 	height: 340px;
 	margin: 0;
 	position: relative;
-	transition: all ease 2s;
+	transition: all ease 0.7s;
 	transform-style: preserve-3d;
 	transform: perspective(500px) rotate(0deg);
 }
@@ -193,7 +193,6 @@ figure .trasera {
 	width: 340px;
 	height: 340px;
 	border-radius: 11px;
-	transition: all ease .9s;
 }
 
 figure .frontal {

@@ -20,8 +20,8 @@ html
 }
 body::-webkit-scrollbar 
 {
-    width: 1rem;
-    background: var(--second-color);
+	width: 1rem;
+	background: var(--second-color);
 }
 body::-webkit-scrollbar-thumb
 {
@@ -170,14 +170,11 @@ header ul li a:hover
 	width: 340px;
 	overflow: hidden;
 	border-radius: 250px;
+	transition: all 2s;
 }
 .contenedor figure:hover
 {
 	box-shadow: 0px 0px 15px 0px var(--seven-color);
-}
-.contenedor figure
-{
-	transition: all 2s;
 }
 .contenedor figure img
 {
@@ -347,10 +344,12 @@ header ul li a:hover
 }
 	/* seccion reponsive  contenedores*/
 
-@media screen 
+/* @media (min-height: 700px) 
 {
-
-}
+	.contexto{ 
+		font-size: 500rem;
+	}
+} */
 
 
 	/* seccion pie de la página */
