@@ -1,6 +1,6 @@
 :root
 {
-	--primary-color: rgb(65, 101, 87);
+	--primary-color: rgb(151, 148, 115);
 	--second-color: black;
 	--three-color: white;
 	--four-color: gray;
@@ -17,10 +17,10 @@ html
 }
 body
 {
-	background: url('../img/augusburnsred/constellations.jpg');
+	background: url('../img/augusburnsred/guardians.jpg');
 	width: auto;
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: 50% 45%;
 }
 body p
 {

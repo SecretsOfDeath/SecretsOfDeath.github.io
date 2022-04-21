@@ -32,10 +32,14 @@ header
 header .logo
 {
   position :relative;
-  color: red;
+  color: gray;
   display: inline-block;
   font-size: 2.4rem;
   text-decoration: none;
+}
+header .logo:hover
+{
+  color: white;
 }
 header a
 {
@@ -53,7 +57,7 @@ header ul li
 header ul li a
 {
   display: inline-block;
-  color: red;
+  color: gray;
   font-weight: 600;
   font-size: 1.7em;
   margin-left: 10px;
@@ -64,8 +68,7 @@ header ul li a
 header ul li a.active,
 header ul li a:hover
 {
-  background: red;
-  color: #fff;
+  color: white;
   border-radius: 30px;
 }
 /*Incio del efecto 3d Redes Sociales*/

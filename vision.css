@@ -121,9 +121,9 @@ body::-webkit-scrollbar-thumb:hover
      /* seccion texto titulo */
 .texto
 {
-     top: 30px;
+     top: 50px;
      left: 750px;
-     width: 470px;
+     width: 500px;
      text-align: right;
      position: relative;
      font-size: 5rem;
