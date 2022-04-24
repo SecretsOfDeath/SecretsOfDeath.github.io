@@ -180,7 +180,7 @@ header ul li a:hover
 {
 	width: 100%;
 	height: 100%;
-	transition: all 500ms ease-out;
+	transition: all ease 2s;
 }
 .contenedor figure .capa
 {
@@ -254,7 +254,7 @@ header ul li a:hover
 	max-width: 100%;
 	display: inline-block;
 	align-items: center;
-	height: 55vh;
+	height: 65vh;
 	user-select: none;
 	justify-items: center;
 }
@@ -265,21 +265,19 @@ header ul li a:hover
 	margin: 30px 45px;
 	position: relative;
 	min-height: 250px;
-	width: 350px;
+	width: 340px;
 	overflow: hidden;
 	border-radius: 250px;
+	transition: all 2s;
 }
 .contenedordos figure:hover
 {
 	box-shadow: 0px 0px 15px 0px var(--seven-color);
 }
-.contenedordos figure
-{
-	transition: all 2s;
-}
 .contenedordos figure img
 {
 	width: 100%;
+	height: 100%;
 	transition: all ease 2s;
 }
 .contenedordos figure .capa
