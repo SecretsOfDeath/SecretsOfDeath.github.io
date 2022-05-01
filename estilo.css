@@ -56,17 +56,13 @@ h2
 	padding: 15px;
 	user-select: none;
 	margin: 100px;
-}
-h2
-{
 	transition: all ease 2s;
-
 }
 h2:hover
 {
 	transition: 2s;
 	color: var(--seven-color);
-	text-shadow: 0 0 5px var(--seven-color), 0 0 10px var(--seven-color), 0 0 15px var(--seven-color), 0 0 50px var(--seven-color);
+	text-shadow: 0 0 1px var(--seven-color), 0 0 3px var(--seven-color), 0 0 3px var(--seven-color), 0 0 30px var(--seven-color);
 }
 .contexto
 {
@@ -91,7 +87,7 @@ h2:hover
 .contexto h1:hover
 {
 	color: var(--four-color);
-	text-shadow: 0 0 5px var(--four-color), 0 0 10px var(--four-color), 0 0 15px var(--four-color), 0 0 50px var(--four-color);
+	text-shadow: 0 0 5px var(--four-color), 0 0 5px var(--four-color), 0 0 5px var(--four-color), 0 0 15px var(--four-color);
 }
 
 header

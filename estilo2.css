@@ -84,7 +84,7 @@ h2
 .contexto h1:hover
 {
 	color: var(--three-color);
-	text-shadow: 0 0 5px var(--three-color), 0 0 10px var(--three-color), 0 0 15px var(--three-color), 0 0 50px var(--three-color);
+	text-shadow: 0 0 5px var(--three-color), 0 0 5px var(--three-color), 0 0 5px var(--three-color), 0 0 15px var(--three-color);
 }
 	/*seccion para el menu*/
 
